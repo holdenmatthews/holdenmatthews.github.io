@@ -1,98 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Holden's Portfolio</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div id="about-section">
-        <div id="about-section-words">
-            <h3>clear.</h3>
-            <h3>creative.</h3>
-            <h3>captivating.</h3>
-            <h1>Holden Matthews,</h1>
-            <div>a full stack web developer who meets challenges head on and delivers clean user experiences.</div>
-        </div>
-        <img src="./IMG_5238.jpg" alt="picture of young person, Holden Matthews, standing in Autumn mountains" id="me-picture">
+      <div id="about-section-words">
+        <h1>Holden Matthews</h1>
+        <h1>Web Developer</h1>
+      </div>
+      <img
+        src="./IMG_5238.jpg"
+        alt="picture of young person, Holden Matthews, standing in Autumn mountains"
+        id="me-picture"
+      />
     </div>
 
-    <div id=skills-section>
-       <h1>skills.</h1>
-       <div id="icons-container">
+    <div id="skills-section-container">
+      <h1 id="skills-h1">skills</h1>
+      <div id="skills-section">
+        <div class="skills-w-name-container">
+          <h2>languages</h2>
+          <div class="skills-container">
             <div class="icon-container">
-                <img src="./icons/amazonaws.svg" alt="AWS icon" class="skills-icon" name="aws"/>
-                <p>AWS</p>
+              <img
+                src="./icons/javascript.svg"
+                alt="javascript icon"
+                class="skills-icon"
+              />
+              <p>JavaScript</p>
             </div>
             <div class="icon-container">
-                <img src="./icons/axios.svg" alt="Axios icon" class="skills-icon"/>
-                <p>Axios</p>
+              <img
+                src="./icons/html5.svg"
+                alt="html5 icon"
+                class="skills-icon"
+              />
+              <p>HTML5</p>
             </div>
             <div class="icon-container">
-                <img src="./icons/googlechrome.svg" alt="chromedriver icon" class="skills-icon"/>
-                <p>Chromedriver</p>
+              <img src="./icons/css3.svg" alt="CSS3 icon" class="skills-icon" />
+              <p>CSS3</p>
             </div>
             <div class="icon-container">
-                <img src="./icons/css3.svg" alt="CSS3 icon" class="skills-icon"/>
-                <p>CSS3</p>
+              <img
+                src="./icons/pngegg.png"
+                alt="SQL icon"
+                class="skills-icon"
+              />
+              <p>SQL</p>
+            </div>
+          </div>
+        </div>
+        <div class="skills-w-name-container">
+          <h2>frameworks & libraries</h2>
+          <div class="skills-container">
+            <div class="icon-container">
+              <img
+                src="./icons/react.svg"
+                alt="react icon"
+                class="skills-icon"
+              />
+              <p>React</p>
             </div>
             <div class="icon-container">
-                <img src="./icons/express.svg" alt="express icon" class="skills-icon"/>
-                <p>Express</p>
+              <img
+                src="./icons/axios.svg"
+                alt="Axios icon"
+                class="skills-icon"
+              />
+              <p>Axios</p>
             </div>
             <div class="icon-container">
-                <img src="./icons/git.svg" alt="git icon" class="skills-icon"/>
-                <p>Git</p>
+              <img
+                src="./icons/nodedotjs.svg"
+                alt="node.js icon"
+                class="skills-icon"
+              />
+              <p>Node.js</p>
             </div>
             <div class="icon-container">
-                <img src="./icons/html5.svg" alt="html5 icon" class="skills-icon"/>
-                <p>HTML5</p>
+              <img
+                src="./icons/jsonwebtokens.svg"
+                alt="json web token icon"
+                class="skills-icon"
+              />
+              <p>JWT</p>
             </div>
             <div class="icon-container">
-                <img src="./icons/javascript.svg" alt="javascript icon" class="skills-icon"/>
-                <p>JavaScript</p>
+              <img
+                src="./icons/express.svg"
+                alt="express icon"
+                class="skills-icon"
+              />
+              <p>Express</p>
             </div>
             <div class="icon-container">
-                <img src="./icons/jest.svg" alt="jest icon" class="skills-icon"/>
-                <p>Jest</p>
+              <img
+                src="./icons/sequelize.svg"
+                alt="sequelize icon"
+                class="skills-icon"
+              />
+              <p>Sequelize</p>
+            </div>
+          </div>
+        </div>
+        <div class="skills-w-name-container">
+          <h2>data management</h2>
+          <div class="skills-container">
+            <div class="icon-container">
+              <img
+                src="./icons/postgresql.svg"
+                alt="PostgreSQL icon"
+                class="skills-icon"
+              />
+              <p>PostgreSQL</p>
             </div>
             <div class="icon-container">
-                <img src="./icons/nodedotjs.svg" alt="node.js icon" class="skills-icon"/>
-                <p>Node.js</p>
+              <img src="./icons/json.svg" alt="json icon" class="skills-icon" />
+              <p>JSON</p>
+            </div>
+          </div>
+        </div>
+        <div class="skills-w-name-container">
+          <h2>interation & testing</h2>
+          <div class="skills-container">
+            <div class="icon-container">
+              <img src="./icons/jest.svg" alt="jest icon" class="skills-icon" />
+              <p>Jest</p>
             </div>
             <div class="icon-container">
-                <img src="./icons/postgresql.svg" alt="PostgreSQL icon" class="skills-icon"/>
-                <p>PostgreSQL</p>
+              <img
+                src="./icons/googlechrome.svg"
+                alt="chromedriver icon"
+                class="skills-icon"
+              />
+              <p>Chromedriver</p>
             </div>
             <div class="icon-container">
-                <img src="./icons/selenium.svg" alt="Selenium icon" class="skills-icon"/>
-                <p>Selenium</p>
+              <img
+                src="./icons/selenium.svg"
+                alt="Selenium icon"
+                class="skills-icon"
+              />
+              <p>Selenium</p>
+            </div>
+          </div>
+        </div>
+        <div class="skills-w-name-container">
+          <h2>tools & software</h2>
+          <div class="skills-container">
+            <div class="icon-container">
+              <img
+                src="./icons/amazonaws.svg"
+                alt="AWS icon"
+                class="skills-icon"
+                name="aws"
+              />
+              <p>AWS</p>
             </div>
             <div class="icon-container">
-                <img src="./icons/sequelize.svg" alt="sequelize icon" class="skills-icon"/>
-                <p>Sequelize</p>
+              <img src="./icons/git.svg" alt="git icon" class="skills-icon" />
+              <p>Git</p>
             </div>
             <div class="icon-container">
-                <img src="./icons/visualstudiocode.svg" alt="visual studio code icon" class="skills-icon"/>
-                <p>Visual Studio Code</p>
+              <img
+                src="./icons/visualstudiocode.svg"
+                alt="visual studio code icon"
+                class="skills-icon"
+              />
+              <p>VS Code</p>
             </div>
-       </div>
+            <div class="icon-container">
+              <img
+                src="./icons/postman.svg"
+                alt="postman icon"
+                class="skills-icon"
+              />
+              <p>Postman</p>
+            </div>
+            <div class="icon-container">
+              <img
+                src="./icons/figma.svg"
+                alt="figma icon"
+                class="skills-icon"
+              />
+              <p>Figma</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="projects-section">
-        <div class="project-container" id="project-container_1"></div>
-        <div class="project-container" id="project-container_2"></div>
-        <div class="project-container" id="project-container_3"></div>
+      <div class="project-container" id="project-container_1"></div>
+      <div class="project-container" id="project-container_2"></div>
+      <!-- <div class="project-container" id="project-container_3"></div> -->
     </div>
 
     <div id="contact-section">
-        <h1>contact me.</h1>
-        <img src="./icons/github.svg" alt="github icon" class="contact-icons"/>
-        <img src="./icons/linkedin.svg" alt="linkedin icon" class="contact-icons"/>
+      <h1>contact me</h1>
+      <img src="./icons/github.svg" alt="github icon" class="contact-icons" />
+      <img
+        src="./icons/linkedin.svg"
+        alt="linkedin icon"
+        class="contact-icons"
+      />
     </div>
-
-</body>
+  </body>
 </html>
