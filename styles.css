@@ -12,11 +12,12 @@ h1, h2, h3, h4, h5, h6, p {
     color: rgb(233, 233, 233);
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
+    font-weight: lighter;
 }
 
 .section {
-    margin-top: 10vh;
-    width: 90vw;
+    margin-top: 1rem;
+    width: 96vw;
     background-color: #232323;
     display: flex;
     flex-direction: column;
@@ -66,23 +67,47 @@ h1, h2, h3, h4, h5, h6, p {
 .icon-background {
     height: 50px;
     width: 50px;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(194, 194, 194);
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: rgba(160, 160, 160, 0.598) 2px 3px 70px 10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     transition: .3s ease-in-out;
 }
 
 .icon-background:hover {
-    box-shadow: rgba(197, 197, 197, 0.787) 2px 3px 70px 10px;
-    height: 65px;
-    width: 65px;
+    background-color: rgb(255, 255, 255);
     transition: .4s ease-in-out;
 }
 
 .skills-icon {
     height: 80%;
     width: auto;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 40%;
+}
+
+.project-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+a {
+    color: rgb(233, 233, 233);
 }
